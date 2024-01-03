@@ -29,8 +29,6 @@ courses = pd.read_csv("./Data Files/courses.csv")
 studAssess = pd.read_csv("./Data Files/studentAssessment.csv")
 studInfo = pd.read_csv("./Data Files/studentInfo.csv")
 studReg = pd.read_csv("./Data Files/studentRegistration.csv")
-studVle = pd.read_csv("./Data Files/studentVle.csv")
-vle = pd.read_csv("./Data Files/vle.csv")
 
 
 # -------------------------- Preparing the Dataset --------------------------
