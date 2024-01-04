@@ -93,6 +93,12 @@ The Cox Proportional Hazard gives us the Hazard Ratio (HR) or exp(coef). The HR 
 * HR < 1 : Reduction in the Hazard
 * HR > 1 : Increase in the Hazard
 
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. Don't forget to give the project a star! Thanks again!
+
 ## Inference 
 
 ### Education 
@@ -100,7 +106,8 @@ From the Kaplan Meier Graph, we can infer that 6.4% of students drop out before 
 
 Therefore, Students from Course GGG are less likely to withdraw - only 0.06% of students from this course withdraw. Students from Course CCC are more likely to withdraw - over 46% of students from this course withdraw. Finally, students with fewer credits are less likely to withdraw, and those with more credits withdraw. Therefore, in order to prevent withdrawal from a course, we need to target students enrolled in courses CCC and/or students who have enrolled in many credits and mentor them.
 
-
+### Healthcare
+In the healthcare datasets, the Kaplan Meier Graph suggests that as the duration of the cancer increases, the probability of survival decreases drastically, which makes sense. From the decision tree and CPH model, age is the most important factor to monitor in ovarian cancer patients and the number of lymph nodes is the most important factor in colon cancer patients.
 
 
 
