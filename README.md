@@ -95,7 +95,17 @@ The Cox Proportional Hazard gives us the Hazard Ratio (HR) or exp(coef). The HR 
 
 ## Inference 
 
-#### Education 
+### Education 
+From the Kaplan Meier Graph, we can infer that 6.4% of students drop out before the course starts. Additionally, 32.6% are likely to drop after 266 days and 67% of students will complete the course. The CPH model helps us to identify parameters that play a role in 'survival'. Moreover, it also tells us if the parameter results in an increase in the hazard or a decrease in the hazard. For example, for the course GGG, the HR is less than one, indicating that students in this course are less likely to drop the course. On the contrary, students enrolled in the course CCC are more likely to drop the course. With the help of the decision tree and feature selection, we know that courses GGG, and CCC play a significant role in outcome along with credits. 
+
+Therefore, Students from Course GGG are less likely to withdraw - only 0.06% of students from this course withdraw. Students from Course CCC are more likely to withdraw - over 46% of students from this course withdraw. Finally, students with fewer credits are less likely to withdraw, and those with more credits withdraw. Therefore, in order to prevent withdrawal from a course, we need to target students enrolled in courses CCC and/or students who have enrolled in many credits and mentor them.
+
+
+
+
+
+
+
 
 
 
