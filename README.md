@@ -81,3 +81,22 @@ The <a href="https://dmkd.cs.vt.edu/projects/survival/data/">Survival Package</a
    ```
 
 2. Install required libraries. Each file contains the analysis of one problem. Run the files to obtain results.
+
+## Kaplan Meier Analysis
+The Kaplan-Meier curve shows the cumulative survival probabilities. It is the visual representation of a function that shows the probability of an event at a respective time interval.
+
+![alt text](https://datatab.net/assets/tutorial/survival/Kaplan_Meier_survival_time_curves.png)
+
+## Cox Proportional Hazard 
+The Cox Proportional Hazard gives us the Hazard Ratio (HR) or exp(coef). The HR gives us the effect a covariate has on the hazard, or event, which in our case is death.
+* HR = 1 : No Effect
+* HR < 1 : Reduction in the Hazard
+* HR > 1 : Increase in the Hazard
+
+## Inference 
+
+#### Education 
+
+
+
+
