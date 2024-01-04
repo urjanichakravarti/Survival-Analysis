@@ -74,4 +74,10 @@ The <a href="https://dmkd.cs.vt.edu/projects/survival/data/">Survival Package</a
 * `rx` - treatment group
 * `ecog.ps` - ECOG performance status (1 is better, see reference)
 
+## Getting Started
+1. Clone the repo
+   ```sh
+   git clone https://github.com/urjanichakravarti/Survival-Analysis.git
+   ```
 
+2. Install required libraries. Each file contains the analysis of one problem. Run the files to obtain results.
